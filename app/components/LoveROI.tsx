@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React, { useState, useEffect, useRef } from 'react';
-import React, { useState, useEffect, useRef } from 'react';
 import { Heart, Plus, ArrowLeft, Camera, X, Info, Target, Trash2, Upload, CheckCircle, AlertCircle, Edit2, ScanLine, Loader2 } from 'lucide-react';
 
 // ▼▼▼ 新しく切り出したコンポーネント: AddDateModal ▼▼▼
