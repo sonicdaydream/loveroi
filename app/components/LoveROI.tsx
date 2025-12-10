@@ -8,6 +8,12 @@ const AddDateModal = ({
   partnerId, 
   onAddDate,
   initialDate = new Date().toISOString().split('T')[0]
+}: {
+  isOpen: boolean;
+  onClose: () => void;
+  partnerId: string | number;
+  onAddDate: (data: any) => void;
+  initialDate?: string;
 }) => {
   const [date, setDate] = useState(initialDate);
   const [amount, setAmount] = useState('');
